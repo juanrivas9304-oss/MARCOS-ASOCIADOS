@@ -135,6 +135,12 @@ body a {
   margin-top: 18px;
 }
 
+.team-card .founder {
+  margin-top: 14px;
+  color: var(--text);
+  font-weight: 700;
+}
+
 .nav-actions {
   display: flex;
   align-items: center;
