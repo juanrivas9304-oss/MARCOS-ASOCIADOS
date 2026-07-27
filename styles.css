@@ -50,16 +50,13 @@ body a {
   position: relative;
   display: grid;
   place-items: center;
+  overflow: hidden;
 }
 
-.brand-mark svg {
-  width: 46px;
-  height: 46px;
-  fill: none;
-  stroke: #fff;
-  stroke-width: 8;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+.brand-logo {
+  width: 44px;
+  height: 44px;
+  display: block;
 }
 
 .brand-mark::before {
