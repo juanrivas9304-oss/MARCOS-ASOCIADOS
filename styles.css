@@ -41,7 +41,7 @@ body a {
   align-items: center;
 }
 
-.brand-mark {
+..brand-mark {
   width: 56px;
   height: 56px;
   border-radius: 18px;
@@ -54,8 +54,10 @@ body a {
 }
 
 .brand-logo {
-  width: 44px;
-  height: 44px;
+  max-width: 44px;
+  max-height: 44px;
+  width: auto;
+  height: auto;
   display: block;
 }
 
