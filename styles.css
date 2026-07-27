@@ -42,21 +42,12 @@ body a {
 }
 
 .brand-mark {
-  /* Contenedor más compacto para que las letras llenen el espacio de forma proporcionada */
-  width: 64px;
-  height: 64px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, #45c2a8, #17705d);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.14);
-  position: relative;
   display: grid;
   place-items: center;
-  overflow: hidden;
 }
 
 .brand-logo {
-  /* Letras mantienen tamaño para máxima legibilidad */
+  /* Logo sin recuadro, letras limpias y legibles */
   width: 64px;
   height: 64px;
   object-fit: contain;
