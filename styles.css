@@ -37,17 +37,18 @@ body a {
 
 .brand {
   display: flex;
-  gap: 16px;
+  gap: 14px;
   align-items: center;
 }
 
 .brand-mark {
-  width: 72px;
-  height: 72px;
-  border-radius: 18px;
+  /* Contenedor ligeramente más pequeño, menos borde interno */
+  width: 66px;
+  height: 66px;
+  border-radius: 16px;
   background: linear-gradient(135deg, #45c2a8, #17705d);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.16);
   position: relative;
   display: grid;
   place-items: center;
@@ -55,11 +56,12 @@ body a {
 }
 
 .brand-logo {
+  /* Mantener letras grandes dentro del contenedor más compacto */
   width: 64px;
   height: 64px;
   object-fit: contain;
   display: block;
-  filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.22));
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.20));
 }
 
 .brand-mark::before {
