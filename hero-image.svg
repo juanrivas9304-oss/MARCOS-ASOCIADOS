@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2d8c6f"/>
+      <stop offset="100%" stop-color="#112b51"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" fill="#eef3fb"/>
+  <rect x="40" y="40" width="560" height="400" rx="40" fill="url(#g)" opacity="0.16"/>
+  <g transform="translate(150 90) scale(1.05)" stroke="#112b51" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M180 28v270"/>
+    <path d="M120 110h120"/>
+    <path d="M240 110c45 0 85 33 85 85s-40 85-85 85-85-33-85-85 40-85 85-85Z"/>
+    <path d="M160 352h100"/>
+  </g>
+  <circle cx="130" cy="330" r="20" fill="#2d8c6f"/>
+  <circle cx="510" cy="330" r="20" fill="#2d8c6f"/>
+  <text x="50%" y="460" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="36" fill="#17203a" opacity="0.8">Marcos y Asociados</text>
+</svg>
