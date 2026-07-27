@@ -48,6 +48,16 @@ body a {
   background: linear-gradient(135deg, var(--primary), #2d9c8e);
   box-shadow: 0 20px 50px rgba(103, 215, 182, 0.18);
   position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.brand-mark span {
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.08em;
 }
 
 .brand-mark::before {
